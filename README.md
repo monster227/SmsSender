@@ -15,6 +15,9 @@
 <p>Переходим в директорию с скриптом:</p>
 <p><pre><code>cd SmsSender</code></pre></p>
 
+<p>Обязательно перед запуском устанавливаем необходимые либы/библиотеки:</p>
+<p><pre><code>pip install -r requirements.txt</code></pre></p>
+
 <p>Запускаем скрипт:</p>
 <p><pre><code>python main.py</code></pre></code>
 
