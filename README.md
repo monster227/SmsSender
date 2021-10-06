@@ -24,7 +24,7 @@
 <p>Дальше вводим номер с текстом и готово !</p>
 
 <h1>Лицензия.</h1>
-<p><a href="https://github.com/KrasProject2021/SmsSender/blob/main/LICENSE">Apache-2.0 License</a></p>
+<p><a href="https://github.com/KrasProject2021/SmsSender/blob/main/LICENSE">GPL-2.0 License</a></p>
 
 <h1>Ссылки.</h1>
 <p><a href="https://t.me/the_onion_tg">The Onion TG</a></p>
