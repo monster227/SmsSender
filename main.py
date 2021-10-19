@@ -1,4 +1,4 @@
-import os, logo, random
+import os, logo, random, time
 
 from colorama import Fore, Style
 from sender import sender
@@ -16,9 +16,11 @@ def main():
     clear()
 
     print(color() + logo.logo + Style.RESET_ALL)
+    print(color() + logo.p + Style.RESET_ALL)
+    time.sleep(5)
 
     while True:
-        phone = input(color() + "Введите номер (без '+'): " + Style.RESET_ALL)
+        phone = input(color() + "\nВведите номер (без '+'): " + Style.RESET_ALL)
         if phone.isdigit():
             phone = int(phone)
             break
