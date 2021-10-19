@@ -23,7 +23,7 @@
 <p>Дальше вводим номер с текстом и готово !</p>
 
 <h1>Новое</h1>
-<p>В новой версии смс отправляются через прокси сервер(http, US), который парчиться в файле <strong>proxy.py</strong></p>
+<p>В новой версии смс отправляются через прокси сервер(http, US), который парсятся в файле <strong>proxy.py</strong></p>
 
 <h1>Лицензия.</h1>
 <p><a href="https://github.com/KrasProject-2021/SmsSender/blob/main/LICENSE">GPL-2.0 License</a></p>
