@@ -15,13 +15,7 @@ import requests
 
 def proxy():
     request = requests.get(
-            "https://www.proxyscan.io/api/proxy?",
-            params = {
-                "format": "json",
-                "type": "http",
-                "country": "us",
-                "Anonymity": "elite"
-            },
+            "https://www.proxyscan.io/api/proxy?format=json&type=http&country=us&Anonymity=elite"
         ).json()
 
     proxy = request[0]
